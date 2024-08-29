@@ -117,12 +117,13 @@ b {
   color: white;
 }
 
-.rodape {
+.contato {
   background: black;
   color: white;
+  padding-top: 40px;
 }
 
-.rodape ul {
+.contato ul {
   display: flex;
   flex-flow: row nowrap;
   padding: 10px;
