@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+/*font - #333*/
 * {
   padding: 0;
   margin: 0;
@@ -102,6 +103,8 @@ b {
   gap: 150px;
   background: #141414;
   color: #A3A3A3;
+  background-size: cover;
+  padding-top: 90px;
 }
 
 .formacao h1 {
@@ -112,4 +115,29 @@ b {
 
 .formacao b {
   color: white;
+}
+
+.rodape {
+  background: black;
+  color: white;
+}
+
+.rodape ul {
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.direitos {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  margin-top: 70px
 }
