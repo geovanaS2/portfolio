@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: #333;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 175%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.menu {
+  /* background: gainsboro; */
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 10px;
+  justify-content: space-around;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.menu ul {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0px 85px;
+  gap: 25px;
+}
+
+.intro {
+  display: flex;
+  flex-direction: row;
+  gap: 150px;
+}
+
+.foto {
+  border: 1px solid black;
+  height: 300px;
+  width: 200px;
+  margin-left: 175px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info h1 {
+  font-size: 56px;
+  line-height: 100%;
+}
+
+.cinza {
+  color: #adb1ba;
+}
+
+.preto {
+  color: black;
+}
+
+.experiencia {
+  margin-top: 70px;
+  display: flex;
+  gap: 150px;
+}
+
+.experiencia h1 {
+  color: #ADB1BA;
+  font-size: 100px;
+  line-height: 120%;
+  margin-left: 175px;
+}
+
+.descricao {
+  width: 500px;
+}
+
+b {
+  color: black;
+}
+
+.formacao {
+  margin-top: 70px;
+  display: flex;
+  gap: 150px;
+  background: #141414;
+  color: #A3A3A3;
+}
+
+.formacao h1 {
+  font-size: 100px;
+  line-height: 120%;
+  margin-left: 175px;
+}
+
+.formacao b {
+  color: white;
+}
