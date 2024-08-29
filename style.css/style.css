@@ -38,16 +38,22 @@ li {
 }
 
 .intro {
+  margin-top: 70px;
   display: flex;
   flex-direction: row;
   gap: 150px;
 }
 
 .foto {
-  border: 1px solid black;
   height: 300px;
   width: 200px;
   margin-left: 175px;
+}
+
+.foto img {
+  height: 300px;
+  width: 200px;
+  border-radius: 15px;
 }
 
 .info {
